@@ -1,0 +1,12 @@
+[package]
+name = "rocket_tcp_reset"
+version = "0.1.0"
+edition = "2021"
+default-run = "rocket_tcp_reset"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.12.4", features = ["blocking", "json"] }
+rocket = { version = "0.5.0", features = ["json"] }
+tokio = { version = "1.37.0", features = ["full"] }
